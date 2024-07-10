@@ -7,7 +7,11 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        '3xl': '1921px',
+      },
+    },
   },
   plugins: [require('tailwindcss-multi')],
 };
