@@ -8,8 +8,9 @@ const font = Rowdies({
 });
 
 export const metadata: Metadata = {
-  title: 'Matton Furie On Ton',
-  description: 'Matton Furie On Ton',
+  title: 'Matt Furie on Ton',
+  description:
+    "Derived from Matt Furie (born August 14, 1979), the creator of the Boy's Club comic series. $MATTON aims to honor Matt Furie's legacy by combining creativity and community spirit.",
 };
 
 export default function RootLayout({
