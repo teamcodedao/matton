@@ -14,8 +14,7 @@ export default function Tokenomics() {
       <h2
         className={clsx(
           'text-heading mx-auto w-[968px] rounded-[27px] rounded-b-none border-[5px] border-b-0 border-black text-center',
-          'bg-secondary px-5 py-2',
-          'text-[64px]'
+          'bg-secondary px-5 py-2'
         )}
       >
         TOKENOMICS
@@ -25,7 +24,7 @@ export default function Tokenomics() {
           'mx-auto flex max-w-[1677px] items-center justify-center bg-secondary',
           'gap-x-10 p-5',
           'rounded-[52px] border-[20px] border-black',
-          '[&_article]:multi-[bg-[#2E52B0];text-white;text-center;rounded-xl;border-4;border-white;text-[38px];whitespace-nowrap;px-5;py-2]'
+          '[&_article]:multi-[bg-[#2E52B0];text-white;text-center;rounded-3xl;border-4;border-white;text-[38px];whitespace-nowrap;px-5;py-2]'
         )}
       >
         <div className='max-w-[411px]'>

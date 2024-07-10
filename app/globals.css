@@ -19,6 +19,6 @@
 
 @layer components {
   .text-heading {
-    @apply text-white;
+    @apply text-white text-[64px];
   }
 }
