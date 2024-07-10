@@ -8,7 +8,7 @@ export default function Hero() {
     <div className=' '>
       <div
         className={clsx(
-          'mt-5 flex w-full flex-col items-center sm:mt-10 xl:mt-20',
+          'mt-5 flex w-full flex-col items-center lg:mt-10 2xl:mt-20',
           'pl-40 max-[800px]:!pl-0 sm:pl-52 lg:pl-60 2xl:pl-72'
         )}
       >

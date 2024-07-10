@@ -23,11 +23,11 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='relative mt-[-300px]'>
+      <div className='relative mt-[-200px] 2xl:mt-[-300px]'>
         <Image
           src={wave0Img}
           alt=''
-          className='h-[300px] w-full object-cover object-top'
+          className='h-[200px] w-full object-cover object-top 2xl:h-[300px]'
         />
         <div className='bg-tertiary'>
           <Tokenomics />
