@@ -11,6 +11,11 @@ const config: Config = {
       screens: {
         '3xl': '1921px',
       },
+      colors: {
+        primary: '#0085FF',
+        secondary: '#76BFE6',
+        tertiary: '#FCFAC2',
+      },
     },
   },
   plugins: [require('tailwindcss-multi')],
