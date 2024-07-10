@@ -4,8 +4,8 @@ import footerImg from './footer.png';
 
 export default function Footer() {
   return (
-    <footer className='relative flex justify-center'>
-      <Image src={footerImg} alt='' className='absolute inset-0 w-full ' />
+    <footer className='flex justify-center overflow-hidden rounded-t-3xl border-t-[12px] border-black'>
+      <Image src={footerImg} alt='' className='w-full ' />
     </footer>
   );
 }

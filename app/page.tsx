@@ -43,16 +43,16 @@ export default function Home() {
           />
         </div>
         <HowToBuy />
+        <div className='h-[150px]'>
+          <Image
+            src={wave2Img}
+            alt=''
+            className='w-full object-cover object-top'
+          />
+        </div>
       </div>
 
       <div className='relative'>
-        <div className='absolute left-0 top-0 h-[400px] w-full overflow-hidden'>
-          <Image
-            src={wave1Img}
-            alt=''
-            className='absolute mt-[-200px] size-full object-cover object-top'
-          />
-        </div>
         <Footer />
       </div>
     </div>
