@@ -9,6 +9,7 @@ import Header from './header';
 import Hero from './hero';
 import Tokenomics from './tokenomics';
 import HowToBuy from './how-to-buy';
+import Footer from './footer';
 
 export default function Home() {
   return (
@@ -42,6 +43,17 @@ export default function Home() {
           />
         </div>
         <HowToBuy />
+      </div>
+
+      <div className='relative'>
+        <div className='absolute left-0 top-0 h-[400px] w-full overflow-hidden'>
+          <Image
+            src={wave1Img}
+            alt=''
+            className='absolute mt-[-200px] size-full object-cover object-top'
+          />
+        </div>
+        <Footer />
       </div>
     </div>
   );
