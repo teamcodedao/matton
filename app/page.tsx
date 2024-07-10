@@ -5,6 +5,7 @@ import wave1Img from './wave-0.svg';
 import Background from './background';
 import Header from './header';
 import Hero from './hero';
+import Tokenomics from './tokenomics';
 
 export default function Home() {
   return (
@@ -16,11 +17,17 @@ export default function Home() {
           <Header />
           <Hero />
         </div>
-        {/* <Image
+      </div>
+
+      <div className='relative mt-[-300px]'>
+        <Image
           src={wave1Img}
           alt=''
-          className='mt-[-300px] h-[300px] w-full object-cover object-top'
-        /> */}
+          className='h-[300px] w-full object-cover object-top'
+        />
+        <div className='bg-tertiary'>
+          <Tokenomics />
+        </div>
       </div>
     </div>
   );
