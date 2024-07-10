@@ -9,7 +9,7 @@ import Tokenomics from './tokenomics';
 
 export default function Home() {
   return (
-    <div>
+    <div className='min-w-[1440px]'>
       {/* Section */}
       <div className='relative overflow-hidden'>
         <Background />
