@@ -33,7 +33,7 @@ export default function Background() {
       autoPlay
       playsInline
       preload='none'
-      className='max-h-[1080px] w-full object-cover'
+      className='absolute inset-0 size-full object-cover'
     >
       <source src='/video-0.mp4' type='video/mp4' />
     </video>

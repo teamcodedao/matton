@@ -10,7 +10,8 @@ export default function Header() {
   return (
     <header
       className={clsx(
-        'max-[400px]:mx-2 mx-auto max-w-[1285px] overflow-hidden rounded-full border-[6px] border-black bg-[#F7FFE8] max-[1285px]:mx-5',
+        'mt-6 sm:mt-12',
+        'mx-auto max-w-[1285px] overflow-hidden rounded-full border-[6px] border-black bg-[#F7FFE8] max-[1285px]:mx-5 max-[400px]:mx-2',
         'flex items-center justify-between gap-x-7',
         'px-5'
       )}
@@ -51,7 +52,7 @@ export default function Header() {
           href={process.env.NEXT_PUBLIC_COIN_URL}
           target='_buy'
           className={clsx(
-            'rounded-full border-2 border-black bg-tertiary px-5 py-0.5 text-3xl font-medium shadow-2xl transition',
+            'rounded-full border-2 border-black bg-[#FCFAC2] px-5 py-0.5 text-3xl shadow-2xl transition',
             'hover:multi-[bg-secondary;text-white]'
           )}
         >

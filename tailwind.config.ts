@@ -12,9 +12,9 @@ const config: Config = {
         '3xl': '1921px',
       },
       colors: {
-        primary: '#0085FF',
+        primary: 'rgb(var(--color-primary) / <alpha-value>)',
         secondary: '#76BFE6',
-        tertiary: '#FCFAC2',
+        tertiary: '#FBFBF1',
       },
     },
   },
