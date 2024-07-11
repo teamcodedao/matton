@@ -13,7 +13,7 @@ import Footer from './footer';
 
 export default function Home() {
   return (
-    <div className='min-w-[1440px]'>
+    <div>
       {/* Section */}
       <div className='relative overflow-hidden'>
         <Background />
@@ -23,7 +23,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='relative mt-[-200px] 2xl:mt-[-300px]'>
+      <div className='relative mt-[-100px] lg:mt-[-200px] 2xl:mt-[-300px]'>
         <Image
           src={wave0Img}
           alt=''
@@ -34,7 +34,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className='relative bg-secondary'>
+      {/* <div className='relative bg-secondary'>
         <div className='absolute left-0 top-0 h-[400px] w-full overflow-hidden'>
           <Image
             src={wave1Img}
@@ -50,11 +50,11 @@ export default function Home() {
             className='w-full object-cover object-top'
           />
         </div>
-      </div>
+      </div> */}
 
-      <div className='relative'>
+      {/* <div className='relative'>
         <Footer />
-      </div>
+      </div> */}
     </div>
   );
 }
