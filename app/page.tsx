@@ -15,7 +15,7 @@ export default function Home() {
   return (
     <div>
       {/* Section */}
-      <div className='relative overflow-hidden'>
+      <div className='relative overflow-hidden bg-[#A1CAFF]'>
         <Background />
         <div className='relative mx-auto max-w-screen-3xl'>
           <Header />
