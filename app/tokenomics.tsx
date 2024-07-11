@@ -28,7 +28,7 @@ export default function Tokenomics() {
           'max-[620px]:multi-[flex;flex-col]',
           '[&>div]:multi-[row-span-2;grid;grid-rows-subgrid;relative;z-10]',
           '[&>div_img]:multi-[w-[80%];object-contain;object-bottom;-mb-5;justify-self-center;self-baseline]',
-          '[&_article]:multi-[bg-[#2E52B0];text-white;text-center;px-5;py-5;rounded-3xl;border-4;border-white]',
+          '[&_article]:multi-[bg-[#2E52B0];text-white;text-center;px-5;py-5;rounded-3xl;border-4;border-white;space-y-4]',
           'text-xl sm:text-2xl lg:text-3xl 2xl:text-[38px]'
         )}
       >

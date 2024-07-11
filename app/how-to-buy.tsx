@@ -2,11 +2,12 @@ import clsx from 'clsx';
 
 export default function HowToBuy() {
   return (
-    <div className='mx-auto flex max-w-[1500px] gap-x-10 pt-32'>
+    <div className='mx-auto flex max-w-[1800px] justify-between gap-x-10 pb-10 pt-14 max-[1800px]:px-5 xl:pt-24 2xl:pt-32'>
       <div
         className={clsx(
-          'w-[507px] self-center overflow-hidden rounded-xl border-8 border-black',
-          'max-[1440px]:hidden'
+          'w-[--w] shrink-0 self-center overflow-hidden rounded-xl border-8 border-black',
+          'max-sm:hidden',
+          '[--w:200px] lg:[--w:300px] xl:[--w:400px] 2xl:[--w:507px]'
         )}
       >
         <video
@@ -24,9 +25,13 @@ export default function HowToBuy() {
         <h2 className='text-heading text-center text-white'>HOW TO BUY</h2>
         <div
           className={clsx(
-            'flex flex-wrap justify-center gap-10',
-            '*:multi-[border-2;border-white;rounded-3xl;bg-[#3A67DC];text-[28px];text-center;px-4;py-5;min-w-[490px];max-w-[min(100%,650px)]]',
-            '[&_p]:multi-[text-[32px];text-white]'
+            'mt-10',
+            '2xl:multi-[flex;flex-wrap;justify-center;gap-10]',
+            '2xl:[&>*]:multi-[min-w-[490px];max-w-[min(100%,650px)]]',
+            'max-2xl:multi-[flex;flex-col;gap-5]',
+            '*:multi-[border-2;border-white;rounded-3xl;bg-[#3A67DC];text-center;px-4;py-5]',
+            'text-xl xl:text-2xl 2xl:text-[28px]',
+            '[&_p]:multi-[`xl:text-3xl;2xl:text-[32px];text-white;`]'
           )}
         >
           <article>

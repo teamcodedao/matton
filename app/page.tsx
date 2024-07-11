@@ -34,27 +34,23 @@ export default function Home() {
         </div>
       </div>
 
-      {/* <div className='relative bg-secondary'>
-        <div className='absolute left-0 top-0 h-[400px] w-full overflow-hidden'>
-          <Image
-            src={wave1Img}
-            alt=''
-            className='absolute mt-[-200px] size-full object-cover object-top'
-          />
-        </div>
+      <div className='mt-[-30px] bg-secondary sm:mt-[-50px] lg:mt-[-80px] xl:mt-[-100px] 2xl:mt-[-150px]'>
+        <Image
+          src={wave1Img}
+          alt=''
+          className='w-full object-cover object-bottom'
+        />
         <HowToBuy />
-        <div className='h-[150px]'>
-          <Image
-            src={wave2Img}
-            alt=''
-            className='w-full object-cover object-top'
-          />
-        </div>
-      </div> */}
+        <Image
+          src={wave2Img}
+          alt=''
+          className='w-full object-cover object-bottom'
+        />
+      </div>
 
-      {/* <div className='relative'>
+      <div className='relative mt-[-20px] lg:mt-[-50px] 2xl:mt-[-100px]'>
         <Footer />
-      </div> */}
+      </div>
     </div>
   );
 }

@@ -7,6 +7,10 @@
   --primary-color: rgb(0, 133, 255);
 }
 
+body {
+  @apply bg-tertiary;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
